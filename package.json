@@ -1,0 +1,29 @@
+{
+  "name": "multithread-jwt-cracker",
+  "version": "1.0.1",
+  "description": "Simple HS256 JWT token brute force cracker with multi-thread support and minimal dependencies. It also shows a resume command on exit and has a nice progressbar.",
+  "main": "index.js",
+  "bin": {
+    "multithread-jwt-cracker": "index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "vaverix",
+    "email": "vaverix@o2.pl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaverix/multithread-jwt-cracker"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.44",
+    "indexed-string-variation": "^1.0.3",
+    "progress": "^2.0.3"
+  }
+}
